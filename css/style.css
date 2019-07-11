@@ -1,7 +1,9 @@
-
-body {
+html {
   font-family: Helvetica;
   font-size: 22px;
+}
+
+body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
@@ -16,6 +18,9 @@ header {
   position: fixed;
   z-index: 15;
   background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header img {
@@ -25,4 +30,14 @@ header img {
 
 nav {
   text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+nav li a {
+  color: inherit;
 }
