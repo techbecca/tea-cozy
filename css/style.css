@@ -34,10 +34,12 @@ h3 {
 header {
   border-bottom: 1px solid var(--main-txt-color, seashell);
   height: 69px;
+  box-sizing: border-box;
   width: 100%;
+  padding: 10px;
   position: fixed;
+  top: 0;
   z-index: 15;
-  background-color: inherit;
   display: flex;
   align-items: center;
   justify-content: space-between;
