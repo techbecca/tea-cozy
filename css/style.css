@@ -38,6 +38,7 @@ header {
   width: 100%;
   padding: 10px;
   position: fixed;
+  background: inherit;
   top: 0;
   z-index: 15;
   display: flex;
