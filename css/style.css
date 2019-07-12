@@ -32,7 +32,7 @@ h3 {
 
 /* Header & Nav bar */
 header {
-  border-bottom: 1px solid var(--main-txt-color, seashell);
+  border-bottom: 1px solid seashell;
   height: 69px;
   box-sizing: border-box;
   width: 100%;
