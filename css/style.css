@@ -1,20 +1,22 @@
 :root {
   font-family: Helvetica;
   font-size: 22px;
-  --main-bg-color: rgba(0,0,0,0.9);
+  --main-bg-color: black;
   --main-txt-color: seashell;
+  --main-opacity: 0.9;
 }
 
 body {
   color: var(--main-txt-color, seashell);
   background-color: var(--main-bg-color, black);
+  opacity: var(--main-opacity, 0.9);
   text-align: center;
 }
 
 h1,h2,h3,h4 {
   font-weight: bold;
-  background-color: var(--main-bg-color, black);
   padding: 10px;
+  opacity: var(--main-opacity, 0.9);
 }
 
 h1 {
@@ -38,7 +40,8 @@ header {
   width: 100%;
   padding: 10px;
   position: fixed;
-  background: inherit;
+  background: var(--main-bg-color, black);
+  opacity: var(--main-opacity, 0.9);
   top: 0;
   z-index: 15;
   display: flex;
