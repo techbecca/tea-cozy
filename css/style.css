@@ -64,10 +64,16 @@ nav li a {
   color: inherit;
 }
 
-/* Mission */
+/* Sections */
+
+section {
+  margin: 40px 0;
+}
+
+/* Mission section*/
 #mission {
   margin: 0 auto;
-  padding-top: 69px;
+  margin-top: 69px;
   height: 700px;
   max-width: 1200px;
   background-image: url("../assets/img-mission-background.jpg");
