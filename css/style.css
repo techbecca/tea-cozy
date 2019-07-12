@@ -90,7 +90,7 @@ section {
   margin: 40px 0;
 }
 
-/* Mission section*/
+/* Mission section */
 #mission {
   margin: 0 auto;
   margin-top: 69px;
@@ -111,4 +111,7 @@ section {
   margin: 0 auto;
 }
 
+#mission h2, #mission h4, #locations h2 {
+  background-color: var(--main-bg-color);
+  opacity: var(--main-opacity);
 }
