@@ -68,6 +68,22 @@ nav li a {
   color: inherit;
 }
 
+/* Flex containers */
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.box {
+  width: 300px;
+}
+.box img {
+  width: 300px;
+  height: 200px;
+}
+
 /* Sections */
 
 section {
@@ -95,18 +111,4 @@ section {
   margin: 0 auto;
 }
 
-/* Flex containers */
-.container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.box {
-  width: 300px;
-}
-.box img {
-  width: 300px;
-  height: 200px;
 }
