@@ -83,3 +83,11 @@ section {
   flex-direction: column;
   justify-content: center;
 }
+
+/* Featured Teas section */
+
+#featured {
+  width: 1000px;
+  margin: 0 auto;
+}
+
