@@ -1,18 +1,19 @@
-html {
+:root {
   font-family: Helvetica;
   font-size: 22px;
+  --main-bg-color: rgba(0,0,0,0.9);
+  --main-txt-color: seashell;
 }
 
 body {
-  color: seashell;
-  background-color: black;
-  opacity: 0.9;
+  color: var(--main-txt-color, seashell);
+  background-color: var(--main-bg-color, black);
   text-align: center;
 }
 
 h1,h2,h3,h4 {
   font-weight: bold;
-  background-color: black;
+  background-color: var(--main-bg-color, black);
   padding: 10px;
 }
 
@@ -31,7 +32,7 @@ h3 {
 
 /* Header & Nav bar */
 header {
-  border-bottom: 1px solid seashell;
+  border-bottom: 1px solid var(--main-txt-color, seashell);
   height: 69px;
   width: 100%;
   position: fixed;
