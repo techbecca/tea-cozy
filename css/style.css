@@ -71,7 +71,7 @@ nav li a {
 }
 
 /* Flex containers */
-.container {
+.flex-container {
   display: flex;
   justify-content: center;
   align-items: center;
