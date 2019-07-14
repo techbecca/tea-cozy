@@ -95,7 +95,6 @@ section {
 }
 
 /* Sections */
-
 #mission {
   margin-top: 69px;
   height: 700px;
@@ -138,9 +137,9 @@ section {
 }
 
 /* Footer */
- footer {
-   text-align: left;
-   padding: 20px;
- }
+footer {
+  text-align: left;
+  padding: 20px;
+}
 
- h5
+h5
