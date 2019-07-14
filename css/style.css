@@ -15,16 +15,15 @@ body {
 
 h1,h2,h3,h4 {
   font-weight: bold;
-  padding: 10px;
-  opacity: var(--main-opacity, 0.9);
+  padding: 1rem;
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 h3 {
@@ -71,31 +70,36 @@ nav li a {
 /* Flex containers */
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
 .box {
   width: 300px;
+  margin: 15px;
 }
 .box img {
+  margin: auto;
   width: 300px;
   height: 200px;
 }
 
-/* Sections */
-
-section {
-  margin: 40px 0;
+.box h4 {
+  padding: 10px;
 }
 
-/* Mission section */
+section {
+  margin: 2rem auto;
+  box-sizing: border-box;
+  max-width: 1200px;
+}
+
+/* Sections */
+
 #mission {
-  margin: 0 auto;
   margin-top: 69px;
   height: 700px;
-  max-width: 1200px;
   background-image: url("../assets/img-mission-background.jpg");
   background-repeat: no-repeat;
   /* Flex properties */
@@ -104,14 +108,17 @@ section {
   justify-content: center;
 }
 
-/* Featured Teas section */
-
 #featured {
-  width: 1000px;
-  margin: 0 auto;
+  max-width: 1000px;
+}
+
+#locations {
+  height: 500px;
+  background: url("../assets/img-locations-background.jpg") no-repeat center;
 }
 
 #mission h2, #mission h4, #locations h2 {
   background-color: var(--main-bg-color);
   opacity: var(--main-opacity);
+
 }
