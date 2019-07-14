@@ -1,15 +1,17 @@
 :root {
-  font-family: Helvetica;
-  font-size: 22px;
   --main-bg-color: black;
-  --main-txt-color: seashell;
+  --main-color: seashell;
   --main-opacity: 0.9;
 }
 
+/* Universal styles */
 body {
-  color: var(--main-txt-color, seashell);
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  color: var(--main-color, seashell);
   background-color: var(--main-bg-color, black);
   opacity: var(--main-opacity, 0.9);
+  font-size: 22px;
   text-align: center;
 }
 
@@ -49,6 +51,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+a {
+  color: var(--main-color, seashell);
 }
 
 header img {
