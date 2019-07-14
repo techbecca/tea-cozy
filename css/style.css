@@ -80,6 +80,7 @@ nav li a {
   margin: 15px;
   background-color: var(--main-bg-color);
 }
+
 .box img {
   margin: auto;
   width: 300px;
@@ -87,8 +88,15 @@ nav li a {
 }
 
 .box h4 {
-  padding: 10px;
+  margin: 15px;
+  padding: 0;
 }
+
+.box p {
+  padding: 1rem 0;
+}
+
+
 
 section {
   margin: 2rem auto;
@@ -121,4 +129,7 @@ section {
 #locations {
   height: 500px;
   background: url("../assets/img-locations-background.jpg") no-repeat center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
