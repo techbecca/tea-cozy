@@ -13,7 +13,7 @@ body {
   text-align: center;
 }
 
-h1,h2,h3,h4,h5 {
+h1, h2, h3, h4, h5 {
   font-weight: bold;
   padding: 1rem;
 }
@@ -106,7 +106,6 @@ section {
 }
 
 /* Sections */
-
 #mission {
   margin-top: 69px;
   height: 700px;
@@ -149,9 +148,7 @@ section {
 }
 
 /* Footer */
- footer {
-   text-align: left;
-   padding: 20px;
- }
-
- h5
+footer {
+  text-align: left;
+  padding: 20px;
+}
